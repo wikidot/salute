@@ -1,4 +1,4 @@
-baseURL: "https://examplesite.com/"
+baseURL: "https://salute365.pages.dev/"
 title: ExampleSite
 pagination:
   pagerSize: 5
@@ -59,8 +59,8 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: Salute365: Consigli quotidiani per il tuo benessere
+  description: "Scopri confronti dettagliati tra farmaci, analisi prezzi tra farmacie fisiche e online, e raccomandazioni esperte per le tue esigenze terapeutiche. Risparmia tempo e denaro con le nostre guide aggiornate e obiettive"
   keywords: [Farmaci, Online, Italia]
   author: Me
   # author: ["Me", "You"] # multiple authors
