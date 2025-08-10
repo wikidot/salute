@@ -2,7 +2,7 @@
 Title: Acquista Viagra generico online senza ricetta (2025)
 date: 2025-08-09T10:45:00+02:00 
 description: "✅ Acquista Viagra generico Online senza Ricetta ✅ Sconti fino all'80% ✅ Consegne veloci entro 24 ore ✅ Metodo discreto: nessuna visita medica richiesta"
-author: "Redazione Salute in Linea"
+author: "Redazione Salute365"
 cover:
   image: "/img/viagra-generico-senza-ricetta-online.webp"
   alt: "Viagra generico senza ricetta Italia"

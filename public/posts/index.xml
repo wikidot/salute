@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Articoli on ExampleSite</title>
+    <title>Articoli on Salute365</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Articoli on ExampleSite</description>
+    <description>Recent content in Articoli on Salute365</description>
     <image>
-      <title>ExampleSite</title>
+      <title>Salute365</title>
       <url>http://localhost:1313/logo.png</url>
       <link>http://localhost:1313/logo.png</link>
     </image>

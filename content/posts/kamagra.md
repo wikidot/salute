@@ -2,7 +2,7 @@
 Title: Kamagra online senza ricetta farmaci Italia  (2025)
 date: 2025-08-08T12:45:00+02:00 
 description: "✅ Acquista Kamagra Online senza Ricetta ✅ Risparmia fino all'80% ✅ Consegne ultra-rapide entro 24 ore ✅ Approccio discreto: nessuna visita medica imbarazzante"
-author: "Redazione Salute in Linea"
+author: "Redazione Salute365"
 cover:
   image: "/img/acquisto-kamagra-senza-ricetta-online.webp"
   alt: "Acquisto kamagra senza ricetta online farmaci Italia"
