@@ -2,7 +2,7 @@
 Title: Ordina Cialis online senza ricetta farmaci Italia (2025)
 date: 2025-08-07T12:10:05+02:00 
 description: "✅ Ordina Cialis Online senza ricetta ✅ Risparmi fino all'80% ✅ Consegna in 24 ore ✅ Metodo discreto, nessuna visita imbarazzante"
-author: "Salute in Linea"
+author: "Redazione Salute in Linea"
 cover:
   image: "/img/cialis-senza-riceta-online.webp"
   alt: "Acquisto Cialis senza ricetta online farmaci Italia"

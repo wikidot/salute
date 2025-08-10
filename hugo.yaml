@@ -117,7 +117,7 @@ params:
 
   homeInfoParams:
     enabled: true
-    title: "Salute in Linea"
+    title: "Salute365: Consigli quotidiani per il tuo benessere"
     content: "Scopri confronti dettagliati tra farmaci, analisi prezzi tra farmacie fisiche e online, e raccomandazioni esperte per le tue esigenze terapeutiche. Risparmia tempo e denaro con le nostre guide aggiornate e obiettive"
 
   socialIcons:
