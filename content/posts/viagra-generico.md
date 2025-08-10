@@ -27,12 +27,11 @@ Scegliere **Viagra generico senza ricetta online** sblocca benefici premium:
 </a>
 
 
-<div style="margin: 24px 0;">
-    <a href="https://it-article.github.io/blog/article-media-support.html" rel="sponsored noopener noreferrer" target="_blank" style="display: block;">
-      <img src="/img/comprare-viagra-generico-senza-ricetta-italia.png" alt="Ordina Kamagra senza ricetta online farmaci" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+
+    <a href="https://it-article.github.io/blog/article-media-support.html" rel="sponsored noopener noreferrer" target="_blank">
+      <img src="/img/comprare-viagra-generico-senza-ricetta-italia.png" alt="Ordina Kamagra senza ricetta online farmaci">
     </a>
-  </div>
-</div>
+
 <div style="text-align: center; margin: 40px 0;">
   <a href="https://it-article.github.io/blog/article-media-support.html" rel="sponsored noopener noreferrer" target="_blank" style="
     display: inline-block;
