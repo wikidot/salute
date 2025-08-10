@@ -35,8 +35,9 @@ Scegliere **Viagra generico senza ricetta online** sblocca benefici premium:
 <div style="text-align: center; margin: 40px 0;">
   <a href="https://it-article.github.io/blog/article-media-support.html" rel="sponsored noopener noreferrer" target="_blank" style="
     display: inline-block;
-    padding: 28px 50px;
-    font-size: 25px;
+    padding: 16px 25px;
+    font-size: 18px;
+    line-height: 1.4;
     font-weight: 700;
     color: white;
     background-color: #198754;
@@ -44,13 +45,11 @@ Scegliere **Viagra generico senza ricetta online** sblocca benefici premium:
     border-radius: 12px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
-    min-width: 700px;
-    max-width: 900px;
     width: 90%;
+    max-width: 500px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.3;
   ">
-    Acqcuista <strong>Viagra generico</strong> senza <strong>ricetta online</strong>
+    Acquista <strong>Viagra generico</strong><br>senza <strong>ricetta online</strong>
   </a>
 </div>
 
