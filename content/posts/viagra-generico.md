@@ -158,7 +158,7 @@ Le principali farmacie autorizzate offrono soluzioni logistiche avanzate conform
 ##  Avviso Legale Obbligatorio 
 
 > **ATTENZIONE:**  
-> Questo sito **NON è una farmacia** e **NON vende farmaci**. Forniamo esclusivamente **recensioni e >informazioni illustrative** a scopo educativo.  
+> Questo sito **NON è una farmacia** e **NON vende farmaci**. Forniamo esclusivamente **recensioni e informazioni illustrative** a scopo educativo.  
 >   
 > **[Consulta le Avvertenze Legali](/disclaimer/)**
 >
