@@ -59,7 +59,7 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Salute365: Consigli quotidiani per il tuo benessere
+  title: "Salute365: Consigli quotidiani per il tuo benessere"
   description: "Scopri confronti dettagliati tra farmaci, analisi prezzi tra farmacie fisiche e online, e raccomandazioni esperte per le tue esigenze terapeutiche. Risparmia tempo e denaro con le nostre guide aggiornate e obiettive"
   keywords: [Farmaci, Online, Italia]
   author: Me
