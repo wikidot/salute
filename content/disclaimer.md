@@ -3,7 +3,7 @@ title: "Avvertenze Legali"
 date: 2025-08-07T10:00:00+02:00
 layout: "single"
 type: "page"
-author: "Salute in Linea"
+author: "Redazione Salute365"
 description: "Avvertenze legali obbligatorie per il sito di informazione farmaceutica"
 showtoc: false
 ---
