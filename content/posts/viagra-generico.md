@@ -162,7 +162,7 @@ Le principali farmacie autorizzate offrono soluzioni logistiche avanzate conform
 >   
 > **[Consulta le Avvertenze Legali](/disclaimer/)**
 >
-> Ultimo aggiornamento: 08/08/2025  
+> Ultimo aggiornamento: 09/08/2025  
 
  ---
 
