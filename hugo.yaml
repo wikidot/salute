@@ -83,6 +83,7 @@ params:
   hideSummary: false
   showtoc: true
   tocopen: false
+  ShowFullTextinRSS: true
 
   
 
