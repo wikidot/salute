@@ -1,52 +1,4 @@
-{{- /*  Custom RSS 2.0 feed for PaperMod with full content  */ -}}
-
-{{- /* Handle author deprecation */}}
-{{- $authorEmail := "" }}
-{{- with site.Params.author }}
-  {{- if reflect.IsMap . }}
-    {{- with .email }}
-      {{- $authorEmail = . }}
-    {{- end }}
-  {{- end }}
-{{- else }}
-  {{- with site.Author.email }}
-    {{- $authorEmail = . }}
-    {{- warnf "The author key in site configuration is deprecated. Use params.author.email instead." }}
-  {{- end }}
-{{- end }}
-
-{{- $authorName := "" }}
-{{- with site.Params.author }}
-  {{- if reflect.IsMap . }}
-    {{- with .name }}
-      {{- $authorName = . }}
-    {{- end }}
-  {{- else }}
-    {{- $authorName = . }}
-  {{- end }}
-{{- else }}
-  {{- with site.Author.name }}
-    {{- $authorName = . }}
-    {{- warnf "The author key in site configuration is deprecated. Use params.author.name instead." }}
-  {{- end }}
-{{- end }}
-
-{{- $pctx := . }}
-{{- if .IsHome }}{{ $pctx = site }}{{ end }}
-
-{{- $pages := slice }}
-{{- if or $.IsHome $.IsSection }}
-  {{- $pages = $pctx.RegularPages }}
-{{- else }}
-  {{- $pages = $pctx.Pages }}
-{{- end }}
-
-{{- $limit := site.Config.Services.RSS.Limit }}
-{{- if ge $limit 1 }}
-  {{- $pages = $pages | first $limit }}
-{{- end }}
-
-{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>{{ if eq .Title site.Title }}{{ site.Title }}{{ else }}{{ .Title }} на {{ site.Title }}{{ end }}</title>
@@ -64,6 +16,34 @@
     <generator>Hugo — {{ hugo.Version }}</generator>
     <language>{{ site.Language.LanguageCode }}</language>
 
+    {{- $authorEmail := "" }}
+    {{- with site.Params.author }}
+      {{- if reflect.IsMap . }}
+        {{- with .email }}
+          {{- $authorEmail = . }}
+        {{- end }}
+      {{- end }}
+    {{- else }}
+      {{- with site.Author.email }}
+        {{- $authorEmail = . }}
+      {{- end }}
+    {{- end }}
+
+    {{- $authorName := "" }}
+    {{- with site.Params.author }}
+      {{- if reflect.IsMap . }}
+        {{- with .name }}
+          {{- $authorName = . }}
+        {{- end }}
+      {{- else }}
+        {{- $authorName = . }}
+      {{- end }}
+    {{- else }}
+      {{- with site.Author.name }}
+        {{- $authorName = . }}
+      {{- end }}
+    {{- end }}
+
     {{ with $authorEmail }}
     <managingEditor>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</managingEditor>
     {{ end }}
@@ -77,12 +57,20 @@
     {{ end }}
 
     {{ if not .Date.IsZero }}
-    <lastBuildDate>{{ (index $pages.ByLastmod.Reverse 0).Lastmod.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+    <lastBuildDate>{{ (index $.Pages.ByLastmod.Reverse 0).Lastmod.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
     {{ end }}
 
     {{ with .OutputFormats.Get "RSS" }}
     <atom:link href="{{ .Permalink }}" rel="self" type="{{ .MediaType }}" />
     {{ end }}
+
+    {{- $pctx := . }}
+    {{- if .IsHome }}{{ $pctx = site }}{{ end }}
+    {{- $pages := (cond .IsHome $pctx.RegularPages $pctx.Pages) }}
+    {{- $limit := site.Config.Services.RSS.Limit }}
+    {{- if ge $limit 1 }}
+      {{- $pages = $pages | first $limit }}
+    {{- end }}
 
     {{ range $pages }}
       {{ if and (ne .Layout "search") (ne .Layout "archives") (not .Draft) }}
@@ -91,17 +79,7 @@
         <link>{{ .Permalink }}</link>
         <pubDate>{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
         <guid>{{ .Permalink }}</guid>
-
-        <!-- Краткое описание (опционально) -->
-        <description>
-          {{- with .Description | html }}
-            {{ . }}
-          {{- else }}
-            {{ .Summary | html }}
-          {{- end }}
-        </description>
-
-        <!-- Полный текст статьи в CDATA -->
+        <description>{{ with .Description | html }}{{ . }}{{ else }}{{ .Summary | html }}{{ end }}</description>
         <content:encoded><![CDATA[{{ .Content }}]]></content:encoded>
       </item>
       {{ end }}

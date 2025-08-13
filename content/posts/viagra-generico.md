@@ -49,7 +49,7 @@ Scegliere **Viagra generico senza ricetta online** sblocca benefici premium:
     max-width: 500px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   ">
-    Acquista <strong>Viagra generico</strong><br>senza <strong>ricetta online</strong>
+    Acquista <strong>Viagra generico</strong><br />senza <strong>ricetta online</strong>
   </a>
 </div>
 
